@@ -39,7 +39,7 @@ class Board
   end
   
   def valid_move?(index)
-    !taken?(index) <=9
+    !taken?(index) && index.between?(0,8)
   end
   
 end  
