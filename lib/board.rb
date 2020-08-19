@@ -22,7 +22,7 @@ class Board
     @cells[user_input.to_i - 1]
   end
   
-  def full?(index)
+  def full?
      @cells.all?{|square| square != " " }
   end
   
