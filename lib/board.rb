@@ -31,7 +31,7 @@ class Board
   end
   
   def taken?(index)
-    if @cells[index] != " "
+    if @cells[index.to_i - 1] != " "
       true
     else
       false
