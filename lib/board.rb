@@ -30,6 +30,8 @@ class Board
     @cells.count{|square| square != " " }
   end
   
-  
+  def taken?(index)
+    @cells[index] != " "
+  end
   
 end  
