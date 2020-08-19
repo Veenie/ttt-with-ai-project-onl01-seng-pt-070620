@@ -18,7 +18,7 @@ class Board
 
   end
   
-  def position
+  def position(user_input)
     user_input.to_i - 1
   end  
   
