@@ -26,6 +26,8 @@ class Board
      @cells[index] != " "
   end
   
-  
+  def turn_count
+    @cells.count{|square| square != " " }
+  end
   
 end  
