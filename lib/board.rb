@@ -18,4 +18,7 @@ class Board
 
   end
   
+  def position
+    
+  
 end  
