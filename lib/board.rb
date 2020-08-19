@@ -30,4 +30,6 @@ class Board
     @cells.count{|square| square != " " }
   end
   
+  
+  
 end  
