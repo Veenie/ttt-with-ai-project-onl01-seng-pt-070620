@@ -22,8 +22,10 @@ class Board
     @cells[user_input.to_i - 1]
   end
   
-  def full?
-    
-  end  
+  def full?(index)
+     @cells[index] != " "
+  end
+  
+  
   
 end  
