@@ -33,6 +33,7 @@ class Board
   def taken?(index)
     if @cells[index] != " "
       true
+    end  
   end
   
 end  
