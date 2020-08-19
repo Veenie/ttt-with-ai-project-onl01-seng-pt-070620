@@ -19,7 +19,7 @@ class Board
   end
   
   def position(user_input)
-    user_input.to_i - 1
+    @cells(user_input.to_i - 1)
   end  
   
 end  
