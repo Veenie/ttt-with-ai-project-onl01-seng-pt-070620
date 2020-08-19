@@ -8,4 +8,9 @@ class Board
   def reset!
     @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
+  
+  def display
+    
+  
+  
 end  
