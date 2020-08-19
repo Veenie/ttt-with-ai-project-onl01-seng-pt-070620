@@ -23,7 +23,7 @@ class Board
   end
   
   def full?(index)
-     @cells[index] != " "
+     @cells.all?{|square| square != " " }
   end
   
   def turn_count
