@@ -4,6 +4,6 @@ class Board
   
   
   def reset!
-    @cells 
+    @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 end  
